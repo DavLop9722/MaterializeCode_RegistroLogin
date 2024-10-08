@@ -1,0 +1,11 @@
+
+Sacar del apartado de estudiante el Contacto con coordinador y administrador
+
+
+Marquea 3000. librerias de js. Para notificaciones de coordinador a prof y prof a alumnos
+
+Slick. para carrusel de fotos (github)
+
+
+Ideas para crear la parte de notificaciones, es crear un DIV flotante y un formulario que envíe
+los datos del mensaje a este div.

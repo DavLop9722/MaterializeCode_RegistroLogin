@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos del Encabezado */
+.header {
+    background: #ffffff;
+    
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header p {
+    color: #35424a;
+    padding: 20px;
+    text-align: start;
+    font-size: 24px;
+    font-weight: bold;
+    border-color: #333;
+}
+.header #imagen{
+    height: 80px;
+    max-height: 120px;
+    
+}
+
+/* Estilos de la Barra de Navegación */
+.nav-bar {
+    background: #ffffff;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    color: #35424a;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.nav-bar ul li a:hover {
+    background: #007bff;
+}
+
+.mensajeria {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.mensajeria:hover {
+    background-color: #444;
+}
+
+/* Estilos de las Secciones */
+section {
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.art1 {
+    background: #e2e2e2;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.art1 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.art1 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.art1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.art2 {
+    background: #e2e2e2;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.art2 label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.art2 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.art2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.art2 select option {
+    background: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+
+.botones-opciones {
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botones-opciones:hover {
+    background: #666;
+}
+
+/* Estilos del Aside */
+.art0 {
+    background: #e2e2e2;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.art0 h2 {
+    margin-bottom: 20px;
+}
+
+.art0 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.art0 ul li {
+    margin-bottom: 10px;
+}
+
+.art0 ul a {
+    color: #333;
+    text-decoration: none;
+}
+
+.art0 ul a:hover {
+    text-decoration: underline;
+}
+
+.art0 button {
+    display: block;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.art0 button:hover {
+    background: #666;
+}
+
+/* Estilos del Pie de Página */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 97%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
